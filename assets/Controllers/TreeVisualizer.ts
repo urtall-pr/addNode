@@ -58,7 +58,7 @@ export class TreeVisualizer extends Component {
 
     const screenSize = view.getVisibleSize();
     const centerX = 0;
-    const centerY = screenSize.height * 0.5 - 80;
+    const centerY = screenSize.height * 0.5 - 150;
 
     // console.log(`Screen size: ${screenSize.width}x${screenSize.height}`);
     // console.log(`Drawing center: (${centerX}, ${centerY})`);

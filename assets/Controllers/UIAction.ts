@@ -32,7 +32,7 @@ export class UIAction extends Component {
 
   setupUI() {
     const { height } = view.getVisibleSize();
-    const posY = height / 2 - 30;
+    const posY = height / 2 - 70;
     this.createButton("Add Child", () => this.addRandomChild(), -150, posY);
     this.createButton(
       "Remove Random",
